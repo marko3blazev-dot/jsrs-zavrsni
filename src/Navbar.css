@@ -5,3 +5,6 @@
 a{
     padding-left: 20px;
 }
+a:hover{
+    font-weight: bold;
+}
