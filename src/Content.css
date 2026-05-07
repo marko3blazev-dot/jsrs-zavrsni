@@ -1,7 +1,10 @@
-.Content{
+.Content {
     flex: 1;
     background-color: aqua;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #374151;
 }
-.Content h1{
+
+.Content h1 {
     text-align: left;
 }
