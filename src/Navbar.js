@@ -5,11 +5,11 @@ function Navbar(){
         <header className='Navbar'>
             <h1>Azilija</h1>
             <nav>
-                <a href='/'>Početna</a>
-                <a href=''>Donacije</a>
-                <a href=''>Volontiranje</a>
-                <a href=''>Udomljavanje/kumstvo</a>
-                <a href=''>Prijava nasilja nad životinjama</a>
+                <a>Početna</a>
+                <a>Donacije</a>
+                <a>Volontiranje</a>
+                <a>Udomljavanje/kumstvo</a>
+                <a>Prijava nasilja nad životinjama</a>
             </nav>
         </header>
     )
