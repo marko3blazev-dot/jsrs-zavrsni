@@ -2,8 +2,13 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url("psi.jpg");
+  background-size: cover;
+  background-position: center;
 }
-html, body {
+
+html,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;

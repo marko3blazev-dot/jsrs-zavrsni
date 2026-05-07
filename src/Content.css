@@ -2,8 +2,6 @@
     flex: 1;
     font-family: 'Inter', system-ui, sans-serif;
     color: white;
-    background-image: url("psi.jpg");
-    background-size: cover;
 }
 
 .Content h1 {
