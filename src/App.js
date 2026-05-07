@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import Content from './Content';
 import Footer from "./Footer";
@@ -13,13 +13,13 @@ function App() {
       <Navbar />
       <Router>
         <Routes>
+          <Route path='/' element={<Content/>}></Route>
           <Route path='/donacije' element={<Donacije/>}></Route>
           <Route path='/volontiranje' element={<Volontiranje/>}></Route>
           <Route path='/kumstvo' element={<Kumstvo/>}></Route>
           <Route path='/nasilje' element={<Nasilje/>}></Route>
         </Routes>
       </Router>
-      <Content />
       <Footer />
     </div>
   );
