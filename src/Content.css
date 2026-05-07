@@ -1,10 +1,10 @@
 .Content {
     flex: 1;
-    background-color: aqua;
     font-family: 'Inter', system-ui, sans-serif;
     color: #374151;
 }
 
 .Content h1 {
     color: #166534;
+    text-align: center;
 }
