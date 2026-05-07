@@ -5,3 +5,4 @@ function Donacije(){
         </div>
     )
 }
+export default Donacije;

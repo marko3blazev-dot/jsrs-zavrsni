@@ -5,3 +5,4 @@ function Kumstvo(){
         </div>
     )
 }
+export default Kumstvo;

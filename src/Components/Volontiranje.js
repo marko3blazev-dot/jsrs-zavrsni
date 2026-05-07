@@ -5,3 +5,4 @@ function Volontiranje(){
         </div>
     )
 }
+export default Volontiranje;

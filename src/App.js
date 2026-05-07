@@ -14,10 +14,10 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Content/>}></Route>
-          <Route path='/' element={<Content/>}></Route>
-          <Route path='/' element={<Content/>}></Route>
-          <Route path='/' element={<Content/>}></Route>
-          <Route path='/' element={<Content/>}></Route>
+          <Route path='/donacije' element={<Donacije/>}></Route>
+          <Route path='/volontiranje' element={<Volontiranje/>}></Route>
+          <Route path='/kumstvo' element={<Kumstvo/>}></Route>
+          <Route path='/nasilje' element={<Nasilje/>}></Route>
         </Routes>
       </Router>
       <Content />

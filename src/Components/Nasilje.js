@@ -5,3 +5,4 @@ function Nasilje(){
         </div>
     )
 }
+export default Nasilje;
