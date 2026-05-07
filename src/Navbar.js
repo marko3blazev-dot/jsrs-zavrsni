@@ -5,8 +5,9 @@ function Navbar(){
         <header className='Navbar'>
             <h1>Azilija</h1>
             <nav>
-                
+
             </nav>
         </header>
     )
 }
+export default Navbar;
