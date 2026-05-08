@@ -10,8 +10,8 @@ import Volontiranje from "./Components/Volontiranje";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Router>
+        <Navbar />
         <Routes>
           <Route path='/' element={<Content/>}></Route>
           <Route path='/donacije' element={<Donacije/>}></Route>
@@ -19,8 +19,8 @@ function App() {
           <Route path='/kumstvo' element={<Kumstvo/>}></Route>
           <Route path='/nasilje' element={<Nasilje/>}></Route>
         </Routes>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }

@@ -7,6 +7,7 @@ function Navbar(){
             <h1>Azilija</h1>
             <table>
                 <tr>
+                    <td><Link to="/">Početna</Link></td>
                     <td><Link to="/donacije">Donacije</Link></td>
                     <td><Link to="/volontiranje">Volontiranje</Link></td>
                     <td><Link to="/kumstvo">Udomljavaje/Kumstvo</Link></td>
