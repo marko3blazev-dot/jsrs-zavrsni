@@ -8,7 +8,7 @@ function Kumstvo({ psi }) {
                 <summary className="accordion-header">Štenci (&lt; 1 godine)</summary>
                 <div className="accordion-content">
                     <div className="podkategorija">
-                        <h4>Mali psi (&lt; 10 kg)</h4>
+                        <h1>Mali psi (&lt; 10 kg)</h1>
                         <div className="pas-kartica">
                             <p><strong>Ime:</strong> {psi[0].ime}</p>
                             <p><strong>Vrsta:</strong> {psi[0].vrsta}</p>
