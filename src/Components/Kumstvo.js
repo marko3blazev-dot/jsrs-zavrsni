@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import Forma from "./Forma";
 import './Kumstvo.css';
 function Kumstvo({ psi }) {
+    const [odabraniPas, setOdabraniPas] = useState(null);
     return (
         <div id="kumstvo">
             <h2>Program Kumstva</h2>
@@ -15,6 +18,14 @@ function Kumstvo({ psi }) {
                             <p><strong>Vrsta:</strong> {psi[0].vrsta}</p>
                             <p><strong>Dob:</strong> {psi[0].dob}</p>
                             <p><strong>Težina:</strong> {psi[0].kilaza}</p>
+                            <div className="akcijski-gumbi">
+                                <a href={psi[0].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                    Udomi
+                                </a>
+                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[0])}>
+                                    Zakumi
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className="podkategorija">
