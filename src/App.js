@@ -18,7 +18,7 @@ function App() {
     { ime: "Vuk", vrsta: "Haski", kilaza: "35 kg", dob: "5 godina" },
 
     { ime: "Kiki", vrsta: "Chihuahua", kilaza: "4 kg", dob: "10 godina" },
-    { ime: "Žan", vrsta: "Španijel", kilaza: "18 kg", dob: "11 godina", link: "https://www.facebook.com/share/p/17NJ8ZqCQz/" }, 
+    { ime: "Žan", vrsta: "Koker španijel", kilaza: "18 kg", dob: "11 godina", link: "https://www.facebook.com/share/p/17NJ8ZqCQz/" }, 
     { ime: "Medo", vrsta: "Bernardinac", kilaza: "45 kg", dob: "9 godina" }
   ];
   return (

@@ -90,6 +90,9 @@ function Kumstvo({ psi }) {
                             <p><strong>Vrsta:</strong> {psi[7].vrsta}</p>
                             <p><strong>Dob:</strong> {psi[7].dob}</p>
                             <p><strong>Težina:</strong> {psi[7].kilaza}</p>
+                            <a href={psi[7].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                Udomi
+                            </a>
                         </div>
                     </div>
                     <div className="podkategorija">

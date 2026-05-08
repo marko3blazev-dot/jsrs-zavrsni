@@ -55,3 +55,28 @@
 .pas-kartica strong {
     color: #10b981;
 }
+
+.btn-udomi {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #166534;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.2s, transform 0.1s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-udomi:hover {
+    background-color: #14532d;
+    transform: scale(1.02);
+    color: white;
+}
+
+.btn-udomi:active {
+    transform: scale(0.98);
+}
