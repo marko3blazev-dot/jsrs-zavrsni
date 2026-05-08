@@ -13,7 +13,8 @@ function Kumstvo({ psi }) {
                         <div className="pas-kartica">
                             <p><strong>Ime:</strong> {psi[0].ime}</p>
                             <p><strong>Vrsta:</strong> {psi[0].vrsta}</p>
-                            <p><strong>Dob/Težina:</strong> {psi[0].dob} / {psi[0].kilaza}</p>
+                            <p><strong>Dob:</strong> {psi[0].dob}</p>
+                            <p><strong>Težina:</strong> {psi[0].kilaza}</p>
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -21,7 +22,8 @@ function Kumstvo({ psi }) {
                         <div className="pas-kartica">
                             <p><strong>Ime:</strong> {psi[1].ime}</p>
                             <p><strong>Vrsta:</strong> {psi[1].vrsta}</p>
-                            <p><strong>Dob/Težina:</strong> {psi[1].dob} / {psi[1].kilaza}</p>
+                            <p><strong>Dob:</strong> {psi[1].dob}</p>
+                            <p><strong>Težina:</strong> {psi[1].kilaza}</p>
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -29,7 +31,8 @@ function Kumstvo({ psi }) {
                         <div className="pas-kartica">
                             <p><strong>Ime:</strong> {psi[2].ime}</p>
                             <p><strong>Vrsta:</strong> {psi[2].vrsta}</p>
-                            <p><strong>Dob/Težina:</strong> {psi[2].dob} / {psi[2].kilaza}</p>
+                            <p><strong>Dob:</strong> {psi[2].dob}</p>
+                            <p><strong>Težina:</strong> {psi[2].kilaza}</p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +45,8 @@ function Kumstvo({ psi }) {
                         <div className="pas-kartica">
                             <p><strong>Ime:</strong> {psi[3].ime}</p>
                             <p><strong>Vrsta:</strong> {psi[3].vrsta}</p>
-                            <p><strong>Dob/Težina:</strong> {psi[3].dob} / {psi[3].kilaza}</p>
+                            <p><strong>Dob:</strong> {psi[3].dob}</p>
+                            <p><strong>Težina:</strong> {psi[3].kilaza}</p>
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -50,7 +54,8 @@ function Kumstvo({ psi }) {
                         <div className="pas-kartica">
                             <p><strong>Ime:</strong> {psi[4].ime}</p>
                             <p><strong>Vrsta:</strong> {psi[4].vrsta}</p>
-                            <p><strong>Dob/Težina:</strong> {psi[4].dob} / {psi[4].kilaza}</p>
+                            <p><strong>Dob:</strong> {psi[4].dob}</p>
+                            <p><strong>Težina:</strong> {psi[4].kilaza}</p>
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -58,7 +63,8 @@ function Kumstvo({ psi }) {
                         <div className="pas-kartica">
                             <p><strong>Ime:</strong> {psi[5].ime}</p>
                             <p><strong>Vrsta:</strong> {psi[5].vrsta}</p>
-                            <p><strong>Dob/Težina:</strong> {psi[5].dob} / {psi[5].kilaza}</p>
+                            <p><strong>Dob:</strong> {psi[5].dob}</p>
+                            <p><strong>Težina:</strong> {psi[5].kilaza}</p>
                         </div>
                     </div>
                 </div>
@@ -73,7 +79,8 @@ function Kumstvo({ psi }) {
                         <div className="pas-kartica">
                             <p><strong>Ime:</strong> {psi[6].ime}</p>
                             <p><strong>Vrsta:</strong> {psi[6].vrsta}</p>
-                            <p><strong>Dob/Težina:</strong> {psi[6].dob} / {psi[6].kilaza}</p>
+                            <p><strong>Dob:</strong> {psi[6].dob}</p>
+                            <p><strong>Težina:</strong> {psi[6].kilaza}</p>
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -81,7 +88,8 @@ function Kumstvo({ psi }) {
                         <div className="pas-kartica">
                             <p><strong>Ime:</strong> {psi[7].ime}</p>
                             <p><strong>Vrsta:</strong> {psi[7].vrsta}</p>
-                            <p><strong>Dob/Težina:</strong> {psi[7].dob} / {psi[7].kilaza}</p>
+                            <p><strong>Dob:</strong> {psi[7].dob}</p>
+                            <p><strong>Težina:</strong> {psi[7].kilaza}</p>
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -89,7 +97,8 @@ function Kumstvo({ psi }) {
                         <div className="pas-kartica">
                             <p><strong>Ime:</strong> {psi[8].ime}</p>
                             <p><strong>Vrsta:</strong> {psi[8].vrsta}</p>
-                            <p><strong>Dob/Težina:</strong> {psi[8].dob} / {psi[8].kilaza}</p>
+                            <p><strong>Dob:</strong> {psi[8].dob}</p>
+                            <p><strong>Težina:</strong> {psi[8].kilaza}</p>
                         </div>
                     </div>
                 </div>

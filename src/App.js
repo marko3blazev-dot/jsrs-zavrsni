@@ -21,7 +21,7 @@ function App() {
 
     // SENIORI (8+ god): indeks 6, 7, 8
     { ime: "Kiki", vrsta: "Chihuahua", kilaza: "4 kg", dob: "10 godina" },  // Mali
-    { ime: "Zagi", vrsta: "Španijel", kilaza: "18 kg", dob: "12 godina" },  // Srednji
+    { ime: "Žan", vrsta: "Španijel", kilaza: "18 kg", dob: "11 godina", link: "https://www.facebook.com/share/p/17NJ8ZqCQz/" },  // Srednji
     { ime: "Medo", vrsta: "Bernardinac", kilaza: "45 kg", dob: "9 godina" }   // Veliki
   ];
   return (
