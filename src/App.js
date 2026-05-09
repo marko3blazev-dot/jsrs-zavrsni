@@ -9,6 +9,8 @@ import Nasilje from "./Components/Nasilje";
 import Volontiranje from "./Components/Volontiranje";
 import slikaKorana from './Components/Korana.jpg';
 import Anđelka from './Components/Andjelka.jpg';
+import Žan from './Components/Zan.jpg';
+import Dante from './Components/Dante.jpg';
 function App() {
   const psi = [
     { ime: "Bobi", vrsta: "Mješanac", kilaza: "8 kg", dob: "6 mjeseci" },
@@ -20,8 +22,8 @@ function App() {
     { ime: "Vuk", vrsta: "Haski", kilaza: "35 kg", dob: "5 godina" },
 
     { ime: "Kiki", vrsta: "Chihuahua", kilaza: "4 kg", dob: "10 godina" },
-    { ime: "Žan", vrsta: "Koker španijel", kilaza: "18 kg", dob: "11 godina", link: "https://www.facebook.com/share/p/17NJ8ZqCQz/" },
-    { ime: "Medo", vrsta: "Bernardinac", kilaza: "45 kg", dob: "9 godina" }
+    { ime: "Žan", vrsta: "Koker španijel", kilaza: "18 kg", dob: "11 godina", link: "https://www.facebook.com/share/p/17NJ8ZqCQz/", slika: Žan },
+    { ime: "Dante", vrsta: "Zlatni retriver", kilaza: "40 kg", dob: "12 godina", link: "https://sapica.hr/dante/", slika: Dante}
   ];
   return (
     <div className="App">
