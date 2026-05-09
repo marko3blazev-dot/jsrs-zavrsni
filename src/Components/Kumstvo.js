@@ -141,18 +141,27 @@ function Kumstvo({ psi }) {
                     <div className="podkategorija">
                         <h4>Veliki psi (&gt; 25 kg)</h4>
                         <div className="pas-kartica">
-                            <p><strong>Ime:</strong> {psi[5].ime}</p>
-                            <p><strong>Vrsta:</strong> {psi[5].vrsta}</p>
-                            <p><strong>Dob:</strong> {psi[5].dob}</p>
-                            <p><strong>Težina:</strong> {psi[5].kilaza}</p>
-                            <div className="akcijski-gumbi">
-                                <a href={psi[5].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
-                                    Udomi
-                                </a>
-                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[5])}>
-                                    Zakumi
-                                </button>
+                            <div className="pas-info">
+                                <p><strong>Ime:</strong> {psi[5].ime}</p>
+                                <p><strong>Vrsta:</strong> {psi[5].vrsta}</p>
+                                <p><strong>Dob:</strong> {psi[5].dob}</p>
+                                <p><strong>Težina:</strong> {psi[5].kilaza}</p>
+
+                                <div className="akcijski-gumbi">
+                                    {psi[5].link && (
+                                        <a href={psi[5].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                            Udomi
+                                        </a>
+                                    )}
+                                    <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[5])}>
+                                        Zakumi
+                                    </button>
+                                </div>
                             </div>
+
+                            {psi[5].slika && (
+                                <img src={psi[5].slika} alt={`Slika od ${psi[5].ime}`} className="slika-psa" />
+                            )}
                         </div>
                     </div>
                 </div>
