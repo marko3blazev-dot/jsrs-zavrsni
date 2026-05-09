@@ -13,3 +13,28 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.slika-psa {
+  width: 25%; /* Smanjili smo malo širinu da uspravna slika ne bude divovska */
+  aspect-ratio: 3 / 4; /* KLJUČNO: 3 dijela širine na 4 dijela visine = uspravna slika! */
+  object-fit: cover; /* Sprječava da slika izgleda razvučeno ili zgnječeno */
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+
+.pas-kartica {
+  background: white;
+  color: #1f2937;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pas-info {
+  flex: 1;
+  padding-right: 20px;
+}
