@@ -4,10 +4,20 @@ import Forma from "./Forma";
 import './Kumstvo.css';
 function Kumstvo({ psi }) {
     const [odabraniPas, setOdabraniPas] = useState(null);
+    let prikazForme = null;
+    if (odabraniPas) {
+        prikazForme = (
+            <Forma 
+                pas={odabraniPas} 
+                zatvori={() => setOdabraniPas(null)} 
+            />
+        );
+    }
     return (
         <div id="kumstvo">
             <h2>Program Kumstva</h2>
             <p>Odaberite kategoriju za pregled pasa.</p>
+            {prikazForme}
             <details className="dobna-skupina">
                 <summary className="accordion-header">Štenci (&lt; 1 godine)</summary>
                 <div className="accordion-content">
@@ -35,6 +45,14 @@ function Kumstvo({ psi }) {
                             <p><strong>Vrsta:</strong> {psi[1].vrsta}</p>
                             <p><strong>Dob:</strong> {psi[1].dob}</p>
                             <p><strong>Težina:</strong> {psi[1].kilaza}</p>
+                            <div className="akcijski-gumbi">
+                                <a href={psi[1].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                    Udomi
+                                </a>
+                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[1])}>
+                                    Zakumi
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -44,6 +62,14 @@ function Kumstvo({ psi }) {
                             <p><strong>Vrsta:</strong> {psi[2].vrsta}</p>
                             <p><strong>Dob:</strong> {psi[2].dob}</p>
                             <p><strong>Težina:</strong> {psi[2].kilaza}</p>
+                            <div className="akcijski-gumbi">
+                                <a href={psi[2].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                    Udomi
+                                </a>
+                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[2])}>
+                                    Zakumi
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -58,6 +84,14 @@ function Kumstvo({ psi }) {
                             <p><strong>Vrsta:</strong> {psi[3].vrsta}</p>
                             <p><strong>Dob:</strong> {psi[3].dob}</p>
                             <p><strong>Težina:</strong> {psi[3].kilaza}</p>
+                            <div className="akcijski-gumbi">
+                                <a href={psi[3].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                    Udomi
+                                </a>
+                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[3])}>
+                                    Zakumi
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -67,6 +101,14 @@ function Kumstvo({ psi }) {
                             <p><strong>Vrsta:</strong> {psi[4].vrsta}</p>
                             <p><strong>Dob:</strong> {psi[4].dob}</p>
                             <p><strong>Težina:</strong> {psi[4].kilaza}</p>
+                            <div className="akcijski-gumbi">
+                                <a href={psi[4].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                    Udomi
+                                </a>
+                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[4])}>
+                                    Zakumi
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -76,6 +118,14 @@ function Kumstvo({ psi }) {
                             <p><strong>Vrsta:</strong> {psi[5].vrsta}</p>
                             <p><strong>Dob:</strong> {psi[5].dob}</p>
                             <p><strong>Težina:</strong> {psi[5].kilaza}</p>
+                            <div className="akcijski-gumbi">
+                                <a href={psi[5].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                    Udomi
+                                </a>
+                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[5])}>
+                                    Zakumi
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -92,6 +142,14 @@ function Kumstvo({ psi }) {
                             <p><strong>Vrsta:</strong> {psi[6].vrsta}</p>
                             <p><strong>Dob:</strong> {psi[6].dob}</p>
                             <p><strong>Težina:</strong> {psi[6].kilaza}</p>
+                            <div className="akcijski-gumbi">
+                                <a href={psi[6].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                    Udomi
+                                </a>
+                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[6])}>
+                                    Zakumi
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -101,9 +159,14 @@ function Kumstvo({ psi }) {
                             <p><strong>Vrsta:</strong> {psi[7].vrsta}</p>
                             <p><strong>Dob:</strong> {psi[7].dob}</p>
                             <p><strong>Težina:</strong> {psi[7].kilaza}</p>
-                            <a href={psi[7].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
-                                Udomi
-                            </a>
+                            <div className="akcijski-gumbi">
+                                <a href={psi[7].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                    Udomi
+                                </a>
+                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[7])}>
+                                    Zakumi
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -113,6 +176,14 @@ function Kumstvo({ psi }) {
                             <p><strong>Vrsta:</strong> {psi[8].vrsta}</p>
                             <p><strong>Dob:</strong> {psi[8].dob}</p>
                             <p><strong>Težina:</strong> {psi[8].kilaza}</p>
+                            <div className="akcijski-gumbi">
+                                <a href={psi[8].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                    Udomi
+                                </a>
+                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[8])}>
+                                    Zakumi
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

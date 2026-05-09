@@ -88,14 +88,18 @@
 }
 
 .btn-zakumi {
+    display: inline-block;
+    margin-top: 15px;
     padding: 10px 20px;
     background-color: #f59e0b;
     color: white;
-    border: none;
+    text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
+    text-align: center;
+    transition: background-color 0.2s, transform 0.1s;
+    border: none;
     cursor: pointer;
-    transition: transform 0.1s, background-color 0.2s;
 }
 
 .btn-zakumi:hover {

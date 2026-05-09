@@ -3,7 +3,7 @@ import './Navbar.css';
 function Navbar(){
     return(
         <header className='Navbar'>
-            <h1>Azilija</h1>
+            <h1>Azilija(Marko Blažev)</h1>
             <table>
                 <tr>
                     <td><Link to="/">Početna</Link></td>
