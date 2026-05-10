@@ -94,7 +94,7 @@ function Kumstvo({ psi }) {
                             </div>
 
                             {psi[2].slika && (
-                                <img src={psi[4].slika} alt={`Slika od ${psi[2].ime}`} className="slika-psa" />
+                                <img src={psi[2].slika} alt={`Slika od ${psi[2].ime}`} className="slika-psa" />
                             )}
                         </div>
                     </div>

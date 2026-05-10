@@ -20,7 +20,7 @@ function App() {
   const psi = [
     { ime: "Proton", vrsta: "Križanac (u obliku hrvatskog ovčara)", kilaza: "Nepoznato", dob: "2 mjeseca", link: "https://www.noina-arka.hr/udomi-psa/proton/", slika: Proton },
     { ime: "Poppi", vrsta: "Mali minsterlander", kilaza: "11 kg", dob: "5 mjeseci", link: "https://www.noina-arka.hr/udomi-psa/poppi/", slika: Poppi },
-    { ime: "Mia", vrsta: "Njemački ovčar", kilaza: "21-40 kg", dob: "6 mjeseci", link: "https://www.njuskalo.hr/udomljavanje-pasa/mia-trazi-dom-oglas-30793790", slika: Mia},
+    { ime: "Mia", vrsta: "Mješanac", kilaza: "21-40 kg", dob: "6 mjeseci", link: "https://www.njuskalo.hr/udomljavanje-pasa/mia-trazi-dom-oglas-30793790", slika: Mia},
 
     { ime: "Eric", vrsta: "Križanac manjeg rasta", kilaza: "Nepoznato", dob: "3 godine", link: "https://www.noina-arka.hr/udomi-psa/eric/", slika: Eric },
     { ime: "Korana", vrsta: "Border Collie", kilaza: "12 kg", dob: "2 godine", link: "https://web.facebook.com/azil.osijek/posts/pfbid034syGMiqX7ycKdkoBxFmra8zdmRoSWxdJsyQSdW3LnmM6vBWYDo3TGgMvcgCa5Dnwl", slika: Korana },
