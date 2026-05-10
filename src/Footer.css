@@ -30,7 +30,7 @@
     letter-spacing: 1px;
 }
 
-.footer-section.about p{
+.footer-section.about p {
     line-height: 1.6;
     margin-top: 0;
     margin-bottom: 1.5rem;
@@ -112,4 +112,39 @@
     margin-top: 1rem;
     font-size: 0.9rem;
     color: #9ca3af;
+}
+
+.footer-section.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-buttons-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.contact-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #f1f5f9;
+    color: #1f2937;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.contact-btn:hover {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.contact-btn svg {
+    width: 26px;
+    height: 26px;
 }
