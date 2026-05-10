@@ -22,8 +22,8 @@ function Footer() {
                     <h3>Brzi linkovi</h3>
                     <ul>
                         <li><a href="#pocetna">Početna stranica</a></li>
-                        <li><a href="#udomljavanje">Udomljavanje</a></li>
-                        <li><a href="#donacije">Donacije i kumstvo</a></li>
+                        <li><a href="#udomljavanje">Udomljavanje i kumstvo</a></li>
+                        <li><a href="#donacije">Donacije</a></li>
                         <li><a href="#volontiranje">Volontiranje</a></li>
                     </ul>
                 </div>
@@ -40,7 +40,7 @@ function Footer() {
                 <div className="footer-section emergency">
                     <h3>Hitne intervencije</h3>
                     <p>Svjedočite zlostavljanju ili ste pronašli teško ozlijeđenu životinju?</p>
-                    <a href="#prijava" className="btn-emergency">Prijavi odmah</a>
+                    <a href="#prijava" className="btn-emergency">Prijavi</a>
                 </div>
 
             </div>

@@ -1,5 +1,5 @@
 .Footer {
-    background-color: black;
+    background-color: #25a456;
     color: white;
     font-family: 'Inter', system-ui, sans-serif;
 }
@@ -81,7 +81,7 @@
 }
 
 .footer-section.links a:hover {
-    color: #10b981;
+    color: #86b910;
     padding-left: 5px;
 }
 

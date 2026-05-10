@@ -1,16 +1,36 @@
-.Navbar{
-    text-align: left;
-    background-color: greenyellow;
-}
-h1{
-    margin-left: 10px;
-    color: coral;
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 20px;
+    background-color: #d97706;
 }
 
-a{
-    padding-left: 20px;
-    color: red;
+.nav-main-content {
+    display: flex;
+    flex-direction: column;
 }
-a:hover{
+
+.nav-main-content h1 {
+    margin: 0 0 10px 0;
+}
+
+.user-name {
+    font-size: 0.85rem;
+    color: #555;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+table td {
+    padding: 0 15px 0 0;
+}
+
+table td a {
+    color: #166534;
+    font-weight: bold;
+}
+
+table td a:hover {
     font-weight: bold;
 }
