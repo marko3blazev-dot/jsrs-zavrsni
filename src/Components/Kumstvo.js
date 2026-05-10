@@ -24,18 +24,26 @@ function Kumstvo({ psi }) {
                     <div className="podkategorija">
                         <h4>Mali psi (&lt; 10 kg)</h4>
                         <div className="pas-kartica">
-                            <p><strong>Ime:</strong> {psi[0].ime}</p>
-                            <p><strong>Vrsta:</strong> {psi[0].vrsta}</p>
-                            <p><strong>Dob:</strong> {psi[0].dob}</p>
-                            <p><strong>Težina:</strong> {psi[0].kilaza}</p>
-                            <div className="akcijski-gumbi">
-                                <a href={psi[0].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
-                                    Udomi
-                                </a>
-                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[0])}>
-                                    Zakumi
-                                </button>
+                            <div className="pas-info">
+                                <p><strong>Ime:</strong> {psi[0].ime}</p>
+                                <p><strong>Vrsta:</strong> {psi[0].vrsta}</p>
+                                <p><strong>Dob:</strong> {psi[0].dob}</p>
+                                <p><strong>Težina:</strong> {psi[0].kilaza}</p>
+
+                                <div className="akcijski-gumbi">
+                                    {psi[0].link && (
+                                        <a href={psi[0].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                            Udomi
+                                        </a>
+                                    )}
+                                    <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[0])}>
+                                        Zakumi
+                                    </button>
+                                </div>
                             </div>
+                            {psi[0].slika && (
+                                <img src={psi[0].slika} alt={`Slika od ${psi[0].ime}`} className="slika-psa" />
+                            )}
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -98,18 +106,27 @@ function Kumstvo({ psi }) {
                     <div className="podkategorija">
                         <h4>Mali psi (&lt; 10 kg)</h4>
                         <div className="pas-kartica">
-                            <p><strong>Ime:</strong> {psi[3].ime}</p>
-                            <p><strong>Vrsta:</strong> {psi[3].vrsta}</p>
-                            <p><strong>Dob:</strong> {psi[3].dob}</p>
-                            <p><strong>Težina:</strong> {psi[3].kilaza}</p>
-                            <div className="akcijski-gumbi">
-                                <a href={psi[3].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
-                                    Udomi
-                                </a>
-                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[3])}>
-                                    Zakumi
-                                </button>
+                            <div className="pas-info">
+                                <p><strong>Ime:</strong> {psi[3].ime}</p>
+                                <p><strong>Vrsta:</strong> {psi[3].vrsta}</p>
+                                <p><strong>Dob:</strong> {psi[3].dob}</p>
+                                <p><strong>Težina:</strong> {psi[3].kilaza}</p>
+
+                                <div className="akcijski-gumbi">
+                                    {psi[3].link && (
+                                        <a href={psi[3].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                            Udomi
+                                        </a>
+                                    )}
+                                    <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[3])}>
+                                        Zakumi
+                                    </button>
+                                </div>
                             </div>
+
+                            {psi[3].slika && (
+                                <img src={psi[3].slika} alt={`Slika od ${psi[3].ime}`} className="slika-psa" />
+                            )}
                         </div>
                     </div>
                     <div className="podkategorija">
@@ -174,18 +191,27 @@ function Kumstvo({ psi }) {
                     <div className="podkategorija">
                         <h4>Mali psi (&lt; 10 kg)</h4>
                         <div className="pas-kartica">
-                            <p><strong>Ime:</strong> {psi[6].ime}</p>
-                            <p><strong>Vrsta:</strong> {psi[6].vrsta}</p>
-                            <p><strong>Dob:</strong> {psi[6].dob}</p>
-                            <p><strong>Težina:</strong> {psi[6].kilaza}</p>
-                            <div className="akcijski-gumbi">
-                                <a href={psi[6].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
-                                    Udomi
-                                </a>
-                                <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[6])}>
-                                    Zakumi
-                                </button>
+                            <div className="pas-info">
+                                <p><strong>Ime:</strong> {psi[6].ime}</p>
+                                <p><strong>Vrsta:</strong> {psi[6].vrsta}</p>
+                                <p><strong>Dob:</strong> {psi[6].dob}</p>
+                                <p><strong>Težina:</strong> {psi[6].kilaza}</p>
+
+                                <div className="akcijski-gumbi">
+                                    {psi[6].link && (
+                                        <a href={psi[6].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                            Udomi
+                                        </a>
+                                    )}
+                                    <button className="btn-zakumi" onClick={() => setOdabraniPas(psi[6])}>
+                                        Zakumi
+                                    </button>
+                                </div>
                             </div>
+
+                            {psi[6].slika && (
+                                <img src={psi[6].slika} alt={`Slika od ${psi[6].ime}`} className="slika-psa" />
+                            )}
                         </div>
                     </div>
                     <div className="podkategorija">
