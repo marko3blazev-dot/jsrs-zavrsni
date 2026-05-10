@@ -8,14 +8,15 @@ import Kumstvo from "./Components/Kumstvo";
 import Nasilje from "./Components/Nasilje";
 import Volontiranje from "./Components/Volontiranje";
 import slikaKorana from './Components/Korana.jpg';
-import Anđelka from './Components/Andjelka.jpg';
+import Poppi from './Components/Poppi.png';
 import Žan from './Components/Zan.jpg';
 import Dante from './Components/Dante.jpg';
 import Ferdinand from './Components/Ferdinand.jpg';
+import Proton from './Components/Proton.png';
 function App() {
   const psi = [
-    { ime: "Bobi", vrsta: "Mješanac", kilaza: "8 kg", dob: "6 mjeseci" },
-    { ime: "Anđelka", vrsta: "Posavski gonič", kilaza: "18 kg", dob: "10 mjeseci", link: "https://web.facebook.com/azildubrovnik/posts/pfbid0wUzfc6n3kuCvyiAZghXJ8mHH2trEhA2g2NEYg66kxrH3cmUYHwVg9hcZEfaB24uQl", slika: Anđelka },
+    { ime: "Proton", vrsta: "Križanac", kilaza: "Nepoznato", dob: "2 mjeseca" },
+    { ime: "Poppi", vrsta: "Mali minsterlander", kilaza: "11 kg", dob: "5 mjeseci", link: "https://www.noina-arka.hr/udomi-psa/poppi/", slika: Poppi },
     { ime: "efeff", vrsta: "Njemački ovčar", kilaza: "18 kg", dob: "10 mjeseci", link: "" },
 
     { ime: "Rex", vrsta: "Terijer", kilaza: "7 kg", dob: "3 godine" },

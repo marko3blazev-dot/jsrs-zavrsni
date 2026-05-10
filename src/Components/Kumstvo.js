@@ -48,7 +48,7 @@ function Kumstvo({ psi }) {
                                 <p><strong>Težina:</strong> {psi[1].kilaza}</p>
 
                                 <div className="akcijski-gumbi">
-                                    {psi[2].link && (
+                                    {psi[1].link && (
                                         <a href={psi[1].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
                                             Udomi
                                         </a>
