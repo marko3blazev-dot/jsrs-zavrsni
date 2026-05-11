@@ -42,7 +42,13 @@ function Kumstvo({ psi }) {
                                 </div>
                             </div>
                             {psi[0].slika && (
-                                <img src={psi[0].slika} alt={`Slika od ${psi[0].ime}`} className="slika-psa" />
+                                <a href={psi[0].link} target="_blank" rel="noopener noreferrer" className="slika-link">
+                                    <img
+                                        src={psi[0].slika}
+                                        alt={`Slika od ${psi[0].ime}`}
+                                        className="slika-psa"
+                                    />
+                                </a>
                             )}
                         </div>
                     </div>
@@ -68,7 +74,13 @@ function Kumstvo({ psi }) {
                             </div>
 
                             {psi[1].slika && (
-                                <img src={psi[1].slika} alt={`Slika od ${psi[1].ime}`} className="slika-psa" />
+                                <a href={psi[1].link} target="_blank" rel="noopener noreferrer" className="slika-link">
+                                    <img
+                                        src={psi[1].slika}
+                                        alt={`Slika od ${psi[1].ime}`}
+                                        className="slika-psa"
+                                    />
+                                </a>
                             )}
                         </div>
                     </div>
@@ -83,7 +95,7 @@ function Kumstvo({ psi }) {
 
                                 <div className="akcijski-gumbi">
                                     {psi[2].link && (
-                                        <a href={psi[4].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
+                                        <a href={psi[2].link} target="_blank" rel="noopener noreferrer" className="btn-udomi">
                                             Udomi
                                         </a>
                                     )}
@@ -94,7 +106,13 @@ function Kumstvo({ psi }) {
                             </div>
 
                             {psi[2].slika && (
-                                <img src={psi[2].slika} alt={`Slika od ${psi[2].ime}`} className="slika-psa" />
+                                <a href={psi[2].link} target="_blank" rel="noopener noreferrer" className="slika-link">
+                                    <img
+                                        src={psi[2].slika}
+                                        alt={`Slika od ${psi[2].ime}`}
+                                        className="slika-psa"
+                                    />
+                                </a>
                             )}
                         </div>
                     </div>
@@ -125,7 +143,13 @@ function Kumstvo({ psi }) {
                             </div>
 
                             {psi[3].slika && (
-                                <img src={psi[3].slika} alt={`Slika od ${psi[3].ime}`} className="slika-psa" />
+                                <a href={psi[3].link} target="_blank" rel="noopener noreferrer" className="slika-link">
+                                    <img
+                                        src={psi[3].slika}
+                                        alt={`Slika od ${psi[3].ime}`}
+                                        className="slika-psa"
+                                    />
+                                </a>
                             )}
                         </div>
                     </div>
@@ -151,7 +175,13 @@ function Kumstvo({ psi }) {
                             </div>
 
                             {psi[4].slika && (
-                                <img src={psi[4].slika} alt={`Slika od ${psi[4].ime}`} className="slika-psa" />
+                                <a href={psi[4].link} target="_blank" rel="noopener noreferrer" className="slika-link">
+                                    <img
+                                        src={psi[4].slika}
+                                        alt={`Slika od ${psi[4].ime}`}
+                                        className="slika-psa"
+                                    />
+                                </a>
                             )}
                         </div>
                     </div>
@@ -177,7 +207,13 @@ function Kumstvo({ psi }) {
                             </div>
 
                             {psi[5].slika && (
-                                <img src={psi[5].slika} alt={`Slika od ${psi[5].ime}`} className="slika-psa" />
+                                <a href={psi[5].link} target="_blank" rel="noopener noreferrer" className="slika-link">
+                                    <img
+                                        src={psi[5].slika}
+                                        alt={`Slika od ${psi[5].ime}`}
+                                        className="slika-psa"
+                                    />
+                                </a>
                             )}
                         </div>
                     </div>
@@ -210,7 +246,13 @@ function Kumstvo({ psi }) {
                             </div>
 
                             {psi[6].slika && (
-                                <img src={psi[6].slika} alt={`Slika od ${psi[6].ime}`} className="slika-psa" />
+                                <a href={psi[6].link} target="_blank" rel="noopener noreferrer" className="slika-link">
+                                    <img
+                                        src={psi[6].slika}
+                                        alt={`Slika od ${psi[6].ime}`}
+                                        className="slika-psa"
+                                    />
+                                </a>
                             )}
                         </div>
                     </div>
@@ -236,7 +278,13 @@ function Kumstvo({ psi }) {
                             </div>
 
                             {psi[7].slika && (
-                                <img src={psi[7].slika} alt={`Slika od ${psi[7].ime}`} className="slika-psa" />
+                                <a href={psi[7].link} target="_blank" rel="noopener noreferrer" className="slika-link">
+                                    <img
+                                        src={psi[7].slika}
+                                        alt={`Slika od ${psi[7].ime}`}
+                                        className="slika-psa"
+                                    />
+                                </a>
                             )}
                         </div>
                     </div>
@@ -262,7 +310,13 @@ function Kumstvo({ psi }) {
                             </div>
 
                             {psi[8].slika && (
-                                <img src={psi[8].slika} alt={`Slika od ${psi[8].ime}`} className="slika-psa" />
+                                <a href={psi[8].link} target="_blank" rel="noopener noreferrer" className="slika-link">
+                                    <img
+                                        src={psi[8].slika}
+                                        alt={`Slika od ${psi[8].ime}`}
+                                        className="slika-psa"
+                                    />
+                                </a>
                             )}
                         </div>
                     </div>

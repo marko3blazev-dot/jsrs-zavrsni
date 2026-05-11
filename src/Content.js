@@ -1,61 +1,76 @@
 import './Content.css';
+import { Link } from "react-router-dom";
 function Content() {
     return (
         <main className='Content'>
-            <h1>Početna stranica</h1>
-            <section className="hero-section">
-                <div className="hero-content">
-                    <p className="intro-text">
-                        Svaka životinja zaslužuje dom pun ljubavi i sigurnosti.
-                        U Aziliji svakodnevno radimo na tome da napuštenim, zaboravljenim i ranjenim
-                        šapicama pružimo toplinu, punu zdjelicu i, ono najvažnije, priliku za sretan život.
-                        Pregledaj naše štićenike – možda se tvoj novi najbolji prijatelj krije baš ovdje.
-                    </p>
+            <section className="hero-banner">
+                <div className="hero-tekst">
+                    <h1>Pronađi svog novog najboljeg prijatelja</h1>
+                    <p>Zajedno možemo stvoriti bolji svijet za napuštene i zlostavljane životinje. Odaberi kako želiš pomoći!</p>
                 </div>
             </section>
-            <section className="site-features">
-                <h2 className="section-title">Kako vam naša stranica može pomoći?</h2>
-                <div className="features-grid">
 
-                    <div className="feature-card">
-                        <div className="feature-icon">🐾</div>
-                        <h3>Pregled za udomljavanje</h3>
-                        <p>
-                            Upoznajte naše trenutne štićenike. Pregledajte galerije slika, pročitajte njihove
-                            životne priče i saznajte karakteristike svakog psa ili mačke kako biste pronašli
-                            idealnog ljubimca za svoj dom.
-                        </p>
-                    </div>
+            {/* 2. Kartice s brzim linkovima koje prelaze preko bannera */}
+            <section className="glavne-kartice-sekcija">
+                <div className="kartice-kontejner">
 
-                    <div className="feature-card">
-                        <div className="feature-icon">❤️</div>
-                        <h3>Donacije i kumstvo</h3>
-                        <p>
-                            Saznajte kako financijski ili materijalno podržati azil. Putem stranice možete
-                            pronaći podatke za uplatu jednokratnih donacija ili ispuniti obrazac za virtualno
-                            kumstvo određenoj životinji.
-                        </p>
-                    </div>
+                    {/* Kartica 1: Udomljavanje */}
+                    <Link to="/kumstvo" className="akcijska-kartica">
+                        <div className="ikona">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v4h-2zm0 6h2v2h-2z" style={{ display: "none" }} />
+                                {/* Paw Icon */}
+                                <path d="M12 8.5c-.93 0-1.74.5-2.24 1.25-.5-.75-1.31-1.25-2.24-1.25-1.52 0-2.76 1.24-2.76 2.76 0 1.34 1.05 3.32 3.37 5.76.71.74 1.24 1.15 1.63 1.39.15.09.34.09.49 0 .39-.24.92-.65 1.63-1.39 2.32-2.44 3.37-4.42 3.37-5.76 0-1.52-1.24-2.76-2.76-2.76zm-5-3c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm10 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM8.5 5.5c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm7 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" />
+                            </svg>
+                        </div>
+                        <h3>Udomi ili Kumuj</h3>
+                    </Link>
 
-                    <div className="feature-card">
-                        <div className="feature-icon">🤝</div>
-                        <h3>Prijava za volontiranje</h3>
-                        <p>
-                            Želite nam se pridružiti? Ovdje možete pročitati sve o našim volonterskim programima,
-                            saznati termine za šetnje pasa te ispuniti online prijavnicu za nove volontere.
-                        </p>
-                    </div>
+                    {/* Kartica 2: Volontiranje */}
+                    <Link to="/volontiranje" className="akcijska-kartica">
+                        <div className="ikona">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                {/* Hands/Volunteer Icon */}
+                                <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-6 10c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm4.5 4H7.5v-1c0-1.5 3-2.25 4.5-2.25s4.5.75 4.5 2.25v1z" />
+                            </svg>
+                        </div>
+                        <h3>Volontiraj</h3>
+                    </Link>
 
-                    <div className="feature-card alert-card">
-                        <div className="feature-icon">⚠️</div>
-                        <h3>Prijava nasilja i zanemarivanja</h3>
-                        <p>
-                            Ako ste svjedok zlostavljanja životinja, naša stranica nudi siguran i brz obrazac
-                            za prijavu. Vaša prijava može anonimno biti proslijeđena nadležnim institucijama i
-                            našoj terenskoj službi.
-                        </p>
-                    </div>
+                    {/* Kartica 3: Donacije */}
+                    <Link to="/donacije" className="akcijska-kartica">
+                        <div className="ikona">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                {/* Heart/Donate Icon */}
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                            </svg>
+                        </div>
+                        <h3>Donacije</h3>
+                    </Link>
 
+                    {/* Kartica 4: Prijava nasilja */}
+                    <Link to="/nasilje" className="akcijska-kartica">
+                        <div className="ikona">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                {/* Shield/Alert Icon */}
+                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" />
+                            </svg>
+                        </div>
+                        <h3>Prijava nasilja</h3>
+                    </Link>
+
+                </div>
+            </section>
+
+            <section className="opis-stranice-sekcija">
+                <div className="opis-kontejner">
+                    <h2>Vaša poveznica sa skloništima</h2>
+                    <p>
+                        Azilija je zamišljena kao centralna <strong>poveznica azila</strong> na jednom mjestu. 
+                        Naša misija je povezati ljude velikog srca s napuštenim životinjama te omogućiti brz i 
+                        <strong> laki pristup volonterskim programima</strong> u tim azilima. Bilo da želite udomiti, 
+                        donirati ili odvojiti svoje vrijeme, ovdje počinje vaša priča.
+                    </p>
                 </div>
             </section>
         </main>
