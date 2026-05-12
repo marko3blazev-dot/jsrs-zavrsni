@@ -10,11 +10,9 @@ function Content() {
                 </div>
             </section>
 
-            {/* 2. Kartice s brzim linkovima koje prelaze preko bannera */}
             <section className="glavne-kartice-sekcija">
                 <div className="kartice-kontejner">
 
-                    {/* Kartica 1: Udomljavanje */}
                     <Link to="/kumstvo" className="akcijska-kartica">
                         <div className="ikona">
                             <svg viewBox="0 0 24 24" fill="currentColor">
