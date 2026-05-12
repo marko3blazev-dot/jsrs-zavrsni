@@ -68,8 +68,8 @@ function Content() {
                     <p>
                         Azilija je zamišljena kao centralna <strong>poveznica azila</strong> na jednom mjestu. 
                         Naša misija je povezati ljude velikog srca s napuštenim životinjama te omogućiti brz i 
-                        <strong> laki pristup volonterskim programima</strong> u tim azilima. Bilo da želite udomiti, 
-                        donirati ili odvojiti svoje vrijeme, ovdje počinje vaša priča.
+                        <strong> laki pristup volonterskim programima</strong> u azilima. Bilo da želite udomiti, 
+                        donirati ili pokloniti svoje vrijeme, ovdje počinje vaša priča.
                     </p>
                 </div>
             </section>

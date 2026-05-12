@@ -51,7 +51,7 @@ function Footer() {
                             </svg>
                         </a>
 
-                        <a href="tel:+385958244022"
+                        <a href="https://wa.me/385958244022"
                             className="contact-btn"
                             aria-label="Nazovi mobitel">
                             <svg viewBox="0 0 24 24" fill="currentColor">

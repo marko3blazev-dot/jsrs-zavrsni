@@ -30,7 +30,7 @@ function Volontiranje() {
 
             <section className="v-info-sekcija">
                 <div className="v-tekst-blok">
-                    <h2>Što znači biti volonter Azilije?</h2>
+                    <h2>Što znači biti volonter Azila?</h2>
                     <p>
                         Volontiranje nije samo rad, to je prilika da direktno utječete na kvalitetu života
                         pasa koji čekaju svoj zauvijek dom. Naši volonteri su srce azila i ključni su
