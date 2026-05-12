@@ -4,37 +4,33 @@
 }
 
 .hero-banner {
-    /* Ovdje zadrži link na svoju sliku pasa, ovo je samo primjer */
-    background: linear-gradient(rgba(22, 101, 52, 0.4), rgba(0, 0, 0, 0.6)), 
-                url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=1200') center 20% / cover no-repeat;
-    
+    background: linear-gradient(rgba(22, 101, 52, 0.4), rgba(0, 0, 0, 0.6)),
+        url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=1200') center 20% / cover no-repeat;
     height: 550px;
-    
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
     padding: 0 20px;
-    margin-top: 20px; 
 }
 
 .hero-tekst {
-    padding-top: 100px; 
+    padding-top: 100px;
 }
 
 .hero-tekst h1 {
-    font-size: 3.2rem; 
+    font-size: 3.2rem;
     margin-bottom: 20px;
     font-weight: 700;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.6); 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 .hero-tekst p {
     font-size: 1.25rem;
     max-width: 650px;
     margin: 0 auto;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
 .glavne-kartice-sekcija {
