@@ -155,6 +155,7 @@
     display: inline-block;
     font-weight: 500;
     transition: all 0.3s ease;
+    color: #1f2937;
 }
 
 .about-brzi-linkovi ul li a:hover {

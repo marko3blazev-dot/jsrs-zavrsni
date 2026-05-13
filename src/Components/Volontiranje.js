@@ -26,11 +26,6 @@ function Volontiranje() {
     ];
     return (
         <div id="volontiranje">
-            <header className="v-hero">
-                <h1>Postani glas onih koji ga nemaju</h1>
-                <p>Tvoje vrijeme je najvredniji dar koji možeš pokloniti napuštenom psu.</p>
-            </header>
-
             <section className="v-info-sekcija">
                 <div className="v-tekst-blok">
                     <h2>Što znači biti volonter Azila?</h2>

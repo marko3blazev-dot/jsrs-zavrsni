@@ -18,7 +18,7 @@ import Eric from './Components/Eric.jpg';
 import Mia from './Components/Mia.jpg';
 function App() {
   const psi = [
-    { ime: "Proton", vrsta: "Križanac (u obliku hrvatskog ovčara)", kilaza: "Nepoznato", dob: "2 mjeseca", link: "https://www.noina-arka.hr/udomi-psa/proton/", slika: Proton },
+    { ime: "Proton", vrsta: "Križanac (u tipu hrvatskog ovčara)", kilaza: "Nepoznato", dob: "2 mjeseca", link: "https://www.noina-arka.hr/udomi-psa/proton/", slika: Proton },
     { ime: "Poppi", vrsta: "Mali minsterlander", kilaza: "11 kg", dob: "5 mjeseci", link: "https://www.noina-arka.hr/udomi-psa/poppi/", slika: Poppi },
     { ime: "Mia", vrsta: "Mješanac", kilaza: "21-40 kg", dob: "6 mjeseci", link: "https://www.njuskalo.hr/udomljavanje-pasa/mia-trazi-dom-oglas-30793790", slika: Mia},
 

@@ -53,7 +53,7 @@ class Forma extends Component {
                         </div>
 
                         <div className="form-grupa">
-                            <label>Iznos donacije (€):</label>
+                            <label>Iznos mjesečne donacije (€):</label>
                             <input
                                 type="number"
                                 name="iznos"

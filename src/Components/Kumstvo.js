@@ -15,7 +15,7 @@ function Kumstvo({ psi }) {
     }
     return (
         <div id="kumstvo">
-            <h2>Program Kumstva</h2>
+            <h2>Program udomljavanja i kumstva</h2>
             <p>Odaberite kategoriju za pregled pasa.</p>
             {prikazForme}
             <details className="dobna-skupina">
