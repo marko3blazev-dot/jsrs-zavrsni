@@ -6,19 +6,22 @@ function Volontiranje() {
             naslov: "Akcija šetnje pasa",
             opis: "Pridružite se našim vikend akcijama socijalizacije i šetnje. Svaki korak s njima znači puno.",
             link: "https://www.facebook.com/share/1GefJQ976R/",
-            izvor: "Facebook"
+            izvor: "Facebook",
+            grad: "Šibenik"
         },
         {
             naslov: "Pomoć u azilu",
             opis: "Trebamo ruke za pomoć pri hranjenju, čišćenju i uređenju okoliša našeg skloništa.",
             link: "https://www.facebook.com/share/14e6rcYuoT7/",
-            izvor: "Facebook"
+            izvor: "Facebook",
+            grad: "Dubrovnik"
         },
         {
             naslov: "Svjetski standardi volontiranja",
             opis: "Saznajte više o tome kako funkcionira volontiranje na globalnoj razini putem Petfindera.",
             link: "https://www.petfinder.com/",
-            izvor: "Petfinder"
+            izvor: "Petfinder",
+            grad: "Globalno"
         }
     ];
     return (
@@ -62,7 +65,12 @@ function Volontiranje() {
                 <div className="v-grid-poveznica">
                     {prilike.map((item, index) => (
                         <a href={item.link} target="_blank" rel="noopener noreferrer" key={index} className="v-vanjski-link">
-                            <span className="izvor-tag">{item.izvor}</span>
+                            
+                            <div className="kartica-tagovi">
+                                <span className="izvor-tag">{item.izvor}</span>
+                                <span className="grad-tag">📍 {item.grad}</span>
+                            </div>
+                            
                             <h3>{item.naslov}</h3>
                             <p>{item.opis}</p>
                             <div className="v-strelica">Saznaj više &rarr;</div>

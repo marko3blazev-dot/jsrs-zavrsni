@@ -107,3 +107,30 @@
     color: #166534;
     font-weight: bold;
 }
+
+.kartica-tagovi {
+    display: flex;
+    gap: 10px; 
+    margin-bottom: 15px;
+    align-items: flex-start;
+}
+
+.grad-tag {
+    background: #dcfce7; 
+    color: #166534;
+    padding: 2px 8px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.izvor-tag {
+    background: #e2e8f0;
+    color: #166534;
+    padding: 2px 8px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    display: inline-block;
+}
