@@ -4,8 +4,6 @@ import Forma from "./Forma";
 import './Kumstvo.css';
 function Kumstvo({ psi }) {
     const [odabraniPas, setOdabraniPas] = useState(null);
-    const [otvorenUdomljavanje, setOtvorenUdomljavanje] = useState(false);
-    const [otvorenKumstvo, setOtvorenKumstvo] = useState(false);
     let prikazForme = null;
     if (odabraniPas) {
         prikazForme = (
@@ -328,7 +326,6 @@ function Kumstvo({ psi }) {
                 </div>
                 <div className="informacije-stupac">
 
-                    {/* Tekst 1: Zašto odabrati udomljavanje? */}
                     <details className="dobna-skupina info-dropdown">
                         <summary className="accordion-header">Zašto odabrati udomljavanje?</summary>
                         <div className="accordion-content">
@@ -347,7 +344,6 @@ function Kumstvo({ psi }) {
                         </div>
                     </details>
 
-                    {/* Tekst 2: Kumstvo */}
                     <details className="dobna-skupina info-dropdown">
                         <summary className="accordion-header">Postani kum i promijeni život! 🐾</summary>
                         <div className="accordion-content">

@@ -186,9 +186,54 @@
     display: block;
     cursor: pointer;
     transition: opacity 0.3s ease;
-    margin-left: 15px; 
+    margin-left: 15px;
 }
 
 .slika-link:hover {
-    opacity: 0.85; 
+    opacity: 0.85;
+}
+
+.kumstvo-dva-stupca {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 40px; 
+    width: 100%; 
+    margin-top: 30px;
+    align-items: start;
+}
+
+.kategorije-stupac, 
+.informacije-stupac {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.info-lista {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.info-lista li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.info-dropdown h4 {
+    color: #166534;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.istaknuto-p {
+    font-style: italic;
+    color: #166534;
+    font-weight: 500;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f0fdf4;
+    border-radius: 6px;
+    text-align: center;
 }
