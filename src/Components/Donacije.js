@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import React, { useState } from 'react';
 import Forma from './Forma';
 import './Donacije.css';
 function Donacije() {
@@ -6,7 +7,10 @@ function Donacije() {
     return (
         <div id="donacije">
             {otvorenaForma && (
-                <Forma zatvori={() => setOtvorenaForma(false)} />
+                <Forma 
+                    zatvori={() => setOtvorenaForma(false)}
+                    pas={{ ime: "Donacija za udrugu" }}
+                />
             )}
 
             <header className="d-hero">
@@ -32,7 +36,7 @@ function Donacije() {
                         <div className="uplatnica-podaci">
                             <div className="podatak-red">
                                 <span>Primatelj:</span>
-                                <strong>Udruga Azilija, Zagreb</strong>
+                                <strong>Udruga Azilija, Solin</strong>
                             </div>
                             <div className="podatak-red">
                                 <span>IBAN:</span>
