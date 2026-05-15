@@ -5,31 +5,25 @@
     padding: 10px 20px;
     background-color: #86efac;
 }
-
 .nav-main-content {
     display: flex;
     flex-direction: column;
 }
-
 .nav-main-content h1 {
     margin: 0 0 10px 0;
 }
-
 .user-name {
     font-size: 0.85rem;
     color: #555;
     font-weight: 500;
     margin-top: 5px;
 }
-
 table td {
     padding: 0 15px 0 0;
 }
-
 table td a {
     color: #166534;
 }
-
 table td a:hover {
     font-weight: bold;
 }
