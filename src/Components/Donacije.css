@@ -31,17 +31,24 @@
 }
 
 .uplatnica-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 30px;
-    align-items: center;
+    display: block;
+    width: 100%;
+}
+
+.uplatnica-podaci {
+    width: 100%;
+    max-width: 100%; 
 }
 
 .podatak-red {
     display: flex;
     justify-content: space-between;
-    padding: 12px 0;
+    padding: 15px 0; 
     border-bottom: 1px solid #f0f0f0;
+}
+
+.podatak-red:last-child {
+    border-bottom: none;
 }
 
 .podatak-red span {
