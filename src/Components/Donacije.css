@@ -54,19 +54,6 @@
     font-size: 1.1rem;
 }
 
-.qr-placeholder {
-    background: #f8fafc;
-    border: 2px dashed #cbd5e1;
-    height: 180px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    text-align: center;
-    color: #64748b;
-}
-
 .d-grid-materijalno {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

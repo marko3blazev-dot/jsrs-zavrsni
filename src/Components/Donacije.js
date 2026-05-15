@@ -51,13 +51,6 @@ function Donacije() {
                                 <strong>Donacija za rad azila</strong>
                             </div>
                         </div>
-
-                        <div className="qr-kod-okvir">
-                            <div className="qr-placeholder">
-                                <span>SCAN & PAY</span>
-                                <p>Skeniraj barkod za brzu uplatu</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
