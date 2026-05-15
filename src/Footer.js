@@ -86,7 +86,9 @@ function Footer() {
                 <div className="footer-section emergency">
                     <h3>Hitne intervencije</h3>
                     <p>Svjedočite zlostavljanju ili ste pronašli teško ozlijeđenu životinju?</p>
-                    <a href="#prijava" className="btn-emergency">Prijavi</a>
+                    <a href="https://dirh.gov.hr/podnosenje-prijava/83"
+                        target="_blank"
+                        rel="noopener noreferrer" className="btn-emergency">Prijavi</a>
                 </div>
 
             </div>
