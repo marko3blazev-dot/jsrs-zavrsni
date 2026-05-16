@@ -17,6 +17,13 @@ function Volontiranje() {
             grad: "Dubrovnik"
         },
         {
+            naslov: "Svakodnevni rad i briga u azilu",
+            opis: "Pridruži nam se u svakodnevnim zadacima: od hranjenja i održavanja čistoće, do uređenja prostora u kojem naše šapice borave.",
+            link: "https://www.noina-arka.hr/kako-mogu-pomoci/",
+            izvor: "Noina Arka",
+            grad: "Dumovec"
+        },
+        {
             naslov: "Svjetski standardi volontiranja",
             opis: "Saznajte više o tome kako funkcionira volontiranje na globalnoj razini putem Petfindera.",
             link: "https://www.petfinder.com/",
