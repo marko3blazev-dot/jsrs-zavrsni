@@ -24,7 +24,7 @@ function Volontiranje() {
             link: "https://www.noina-arka.hr/kako-mogu-pomoci/",
             izvor: "Noina Arka",
             grad: "Dumovec",
-            zupanija: "Grad Zagreb"
+            zupanija: "Grad Zagreb:"
         },
         {
             naslov: "Svjetski standardi volontiranja",
@@ -32,7 +32,7 @@ function Volontiranje() {
             link: "https://www.petfinder.com/",
             izvor: "Petfinder",
             grad: "Globalno",
-            zupanija: "Međunarodno"
+            zupanija: "Međunarodno:"
         }
     ];
     const prilikePoZupanijama = prilike.reduce((grupe, prilika) => {
