@@ -10,7 +10,7 @@ function Navbar() {
                         <td><Link to="/">Početna</Link></td>
                         <td><Link to="/donacije">Donacije</Link></td>
                         <td><Link to="/volontiranje">Volontiranje</Link></td>
-                        <td><Link to="/kumstvo">Udomljavaje/Kumstvo</Link></td>
+                        <td><Link to="/kumstvo">Udomljavanje/Kumstvo</Link></td>
                         <td><Link to="/nasilje">Prijava nasilja nad životinjama</Link></td>
                     </tr>
                 </table>
